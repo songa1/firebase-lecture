@@ -20,11 +20,13 @@
             </div>
         </nav>
 
-        <!-- Rendering posts to be edited and deleted -->
+        <form>
+            <p>Update a new post</p>
+            <input type="text" name="title" id="title" placeholder="Post title">
+            <textarea name="body" id="body" style="width:100%;" placeholder="Post body" rows="10"></textarea>
+            <button id="updatePost">Update</button>
+        </form>
 
-        <div class="posts">
-            <!-- Rendered posts -->
-        </div>
     </div>
     <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
@@ -32,6 +34,6 @@
     <script src="../js/firebase.js"></script>
     <script src="../js/auth.js"></script>
     <script src="../js/logout.js"></script>
-    <script src="../js/postsManagement.js"></script>
+    <script src="../js/update.js"></script>
 </body>
 </html>
