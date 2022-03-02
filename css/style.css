@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root {
+    --main-color: rgb(104, 19, 19);
+    --text-color: #333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav .logo {
+    color: var(--text-color);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+nav .menu {
+    margin-left: auto;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0 0 0 10px;
+}
+
+nav .menu a:hover {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 1%;
+}
+
+.post img {
+    width: 100%;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+button {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 5px 10px;
+    outline: none;
+    border: 0px;
+}
+
+input, textarea {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}

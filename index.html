@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- The whole container -->
+    <div class="container">
+
+        <!-- Navigation of the pages -->
+        <nav>
+            <div class="logo">Logo</div>
+            <div class="menu">
+                <a href="./index.html">Home</a>
+                <a href="./login.html">Login</a>
+            </div>
+        </nav>
+
+        <!-- This is the section where I will be listing all my blog posts -->
+        <section>
+            <div class="posts">
+                <!-- Posts are being rendered here -->
+            </div>
+        </section>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script src="./js/displayPosts.js"></script>
+</body>
+</html>

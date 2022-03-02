@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation of the pages -->
+        <nav>
+            <div class="logo">Logo</div>
+            <div class="menu">
+                <a href="./index.html">Home</a>
+                <a href="./login.html">Login</a>
+            </div>
+        </nav>
+        
+        <!-- Login form -->
+
+        <form>
+            <p>Login to dashboard</p>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <button id="loginBtn">Login</button>
+        </form>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
