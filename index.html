@@ -16,16 +16,18 @@
         <nav>
             <div class="logo">Logo</div>
             <div class="menu">
-                <a href="./index.html">Home</a>
-                <a href="./login.html">Login</a>
+                <a href="../index.html">Home</a>
+                <a href="./posts.html">Posts</a>
+                <a href="./new.html">New Post</a>
+                <a href="#" onclick="logout()">Logout</a>
             </div>
         </nav>
 
-        <!-- This is the section where I will be listing all my blog posts -->
         <section>
-            <div class="posts">
-                <!-- Posts are being rendered here -->
-            </div>
+            <p class="title" id="title"></p>
+            <p class="author-date" id="author-date"></p>
+            <img src="" id="image" style="width: 100%">
+            <p id="post-body"></p>
         </section>
     </div>
 
